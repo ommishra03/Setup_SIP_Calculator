@@ -1,28 +1,59 @@
-# SIP Calculator
+# 📈 SIP (Systematic Investment Plan) Calculator
 
-This SIP (Systematic Investment Plan) Calculator is a Python program that calculates the total investment, expected returns, and final amount over a given investment period. It accounts for monthly investments, yearly increase rates, and the expected return rate to give accurate projections of your savings.
+A simple yet powerful Python-based tool to help you estimate your wealth creation through systematic investments. This calculator supports annual investment increments and compounding returns, offering a realistic projection of long-term financial growth.
 
-## Features
+---
 
-- **Monthly Investment**: Set an initial monthly investment amount in rupees.
-- **Yearly Increase Rate**: Adjust for an annual increase in monthly contributions.
-- **Expected Return Rate**: Define the expected annual return on your investments.
-- **Investment Period**: Set the total investment duration in years.
+## 📌 Features
 
-## Usage
+- 💰 **Monthly Investment Input**  
+- 🔁 **Yearly Investment Increment Rate**
+- 📈 **Expected Annual Return Rate**
+- 📅 **Custom Investment Duration (in years)**
+- 🧮 **Accurate Calculation** of:
+  - Total Invested Amount
+  - Total Returns Earned
+  - Final Corpus After Investment Period
 
-1. **Input Parameters**:
-   - Initial Monthly Investment (in rupees)
-   - Yearly Increase Rate (as a decimal, e.g., 0.10 for 10%)
-   - Expected Annual Return Rate (as a decimal, e.g., 0.15 for 15%)
-   - Investment Period (in years)
+---
 
-2. **Output**:
-   - Total amount invested over the period.
-   - Total returns after the period.
-   - Final accumulated amount after the investment period.
+## 🚀 Technologies Used
 
-### Example
+| Category         | Tools & Libraries |
+|------------------|------------------|
+| Programming      | Python            |
+| Data Type        | float, int        |
+| Console I/O      | Built-in functions |
+
+---
+
+## 🔧 Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/ommishra03/Setup_SIP_Calculator.git
+   cd Setup_SIP_Calculator```
+
+2. **Run the script**
+
+   ```bash
+   python sip_calculator.py
+   ```
+
+---
+
+## 📥 Input Parameters
+
+You'll be prompted to enter:
+
+* 🏦 Initial Monthly Investment (₹)
+* 📊 Yearly Increase Rate (e.g., `0.05` for 5%)
+* 📉 Expected Annual Return Rate (e.g., `0.12` for 12%)
+* 📆 Investment Period (in years)
+
+---
+
+## 📤 Output Example
 
 ```bash
 Enter the initial monthly investment amount (in rupees): 5000
@@ -31,32 +62,51 @@ Enter the expected annual return rate (as a decimal, e.g., 0.15 for 15%): 0.12
 Enter the investment duration (in years): 10
 ```
 
-**Output**:
+**Output:**
+
 ```
 Total amount invested: 780000.00 rupees
 Total return: 1046523.12 rupees
 Final amount after 10 years: 1826523.12 rupees
 ```
 
-## Installation
+---
 
-To run the calculator, follow these steps:
+## 📚 About the Author
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/<ommishra03>/sip-calculator.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd sip-calculator
-   ```
-3. Run the Python script:
-   ```bash
-   python sip_calculator.py
-   ```
+👨‍🎓 **Om Mishra**
+📍 Third-year Student, Chandigarh University
+🏆 Reliance Foundation Scholar
+🧠 Mentor at Reliance Foundation (C, C++, DSA, Python)
+🌐 Blockchain & AI Enthusiast (Solidity, Ethereum, React, ML)
+🎮 Hackathon Finalist (NASA Space App Challenge, NITs, BITS)
+📢 Rebuilt math curriculum at an ed-tech startup
+🧑‍🏫 Taught merchant navy aspirants
 
-## Author
+🔗 [Connect on LinkedIn](https://www.linkedin.com/in/om-mishra-a62991289)
 
-- **Om Mishra** - [LinkedIn](https://www.linkedin.com/in/om-mishra-a62991289)
+---
 
-Feel free to fork, contribute, and use it for your investment planning!
+## ✨ Acknowledgements
+
+* 🧮 SIP formula and logic based on financial modeling techniques
+* 🐍 Python for CLI implementation
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** — see the LICENSE file for details.
+
+---
+
+## 📧 Contact
+
+For feedback or collaboration: **[ommishra1729@gmail.com](mailto:ommishra1729@gmail.com)**
+
+```
+
+---
+
+Let me know if you’d like to turn this into a **web-based calculator using Streamlit** next!
+```
